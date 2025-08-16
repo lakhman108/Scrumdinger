@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct AppleTutorialApp: App {
+    @State private var scrums = DailyScrum.sampleData
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ScrumsView(scrums: $scrums)
         }
     }
 }

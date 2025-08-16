@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2311A1CC2E4E421F003F72CB /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2311A1CB2E4E421F003F72CB /* ThemeKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		2311A1BC2E4E3E4A003F72CB /* AppleTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2311A1CC2E4E421F003F72CB /* ThemeKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = AppleTutorial;
 			packageProductDependencies = (
+				2311A1CB2E4E421F003F72CB /* ThemeKit */,
 			);
 			productName = AppleTutorial;
 			productReference = 2311A1BC2E4E3E4A003F72CB /* AppleTutorial.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 2311A1B32E4E3E4A003F72CB;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2311A1CA2E4E421F003F72CB /* XCLocalSwiftPackageReference "../../Downloads/CreatingACardView/StartingProject/TutorialResources/ThemeKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2311A1BD2E4E3E4A003F72CB /* Products */;
 			projectDirPath = "";
@@ -251,6 +260,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HB43D49779;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -278,6 +288,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HB43D49779;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -320,6 +331,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2311A1CA2E4E421F003F72CB /* XCLocalSwiftPackageReference "../../Downloads/CreatingACardView/StartingProject/TutorialResources/ThemeKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Downloads/CreatingACardView/StartingProject/TutorialResources/ThemeKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2311A1CB2E4E421F003F72CB /* ThemeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ThemeKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2311A1B42E4E3E4A003F72CB /* Project object */;
 }
