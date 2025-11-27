@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2311A1CC2E4E421F003F72CB /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2311A1CB2E4E421F003F72CB /* ThemeKit */; };
+		234098092E5116020003676B /* TimerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 234098082E5116020003676B /* TimerKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2311A1CC2E4E421F003F72CB /* ThemeKit in Frameworks */,
+				234098092E5116020003676B /* TimerKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +73,7 @@
 			name = AppleTutorial;
 			packageProductDependencies = (
 				2311A1CB2E4E421F003F72CB /* ThemeKit */,
+				234098082E5116020003676B /* TimerKit */,
 			);
 			productName = AppleTutorial;
 			productReference = 2311A1BC2E4E3E4A003F72CB /* AppleTutorial.app */;
@@ -102,6 +105,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				2311A1CA2E4E421F003F72CB /* XCLocalSwiftPackageReference "../../Downloads/CreatingACardView/StartingProject/TutorialResources/ThemeKit" */,
+				234098072E5116020003676B /* XCLocalSwiftPackageReference "../../Downloads/ManagingStateAndLifeCycle/Complete/TutorialResources/TimerKit" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 2311A1BD2E4E3E4A003F72CB /* Products */;
@@ -337,12 +341,20 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = ../../Downloads/CreatingACardView/StartingProject/TutorialResources/ThemeKit;
 		};
+		234098072E5116020003676B /* XCLocalSwiftPackageReference "../../Downloads/ManagingStateAndLifeCycle/Complete/TutorialResources/TimerKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../Downloads/ManagingStateAndLifeCycle/Complete/TutorialResources/TimerKit;
+		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		2311A1CB2E4E421F003F72CB /* ThemeKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ThemeKit;
+		};
+		234098082E5116020003676B /* TimerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TimerKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
